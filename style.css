@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+}
+
+* {
+  /* border-box used to include padding and 
+    border in the element's total width and 
+    height. */
+  box-sizing: border-box;
+}
+
+/* 1 rem = 16px */
+.tool-image {
+  height: 4rem;
+  /* border: 1px solid black; */
+
+}
+
+.toolbar-options {
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid rgb(32, 32, 32); */
+  background-color: rgb(237, 234, 234);
+}
+
+.tool-bar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(241, 245, 245);
+  border-bottom: 2px solid rgb(239, 237, 237);
+  /* width: 1rem; */
+}
+
+/* ---------sticky styling----  */
+
+.sticky{
+  height: 10rem;
+  width: 6rem;
+  
+  position:absolute;
+  left:30vw;
+  top: 40vh;
+}
+
+.nav{
+  border: 1px solid black;
+  height: 20%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+}
+
+.text-area{
+  height: 80%;
+  width: 100%;
+
+}
+
+.input-tag{
+  display: none;
+}
+
+.upload-img{
+  height: 80%;
+  width: 100%;
+}
+
+.cross .tool-image{
+  border-radius: 35px;
+
+}
+
+/* .tool img{
+  width: 1rem;
+} */
